@@ -32,4 +32,17 @@ public class AlienController {
     mv.addObject(alien);
     return mv;
   }
+
+  @RequestMapping("/updateAlien")
+  public String updateAlien(Alien alien) {
+    repo.save(alien);
+
+    return "showAlien.jsp";
+  }
+
+  @RequestMapping("/deleteAlien")
+  public String deleteAlien(@RequestParam int aid) {
+    repo.deleteById(aid);
+    return "home.jsp";
+  }
 }

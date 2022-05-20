@@ -9,6 +9,7 @@
 </head>
 
 <body>
+  ID: ${alien.aid} <br>
   Name: ${alien.aname} <br>
   Work: ${alien.tech}
 </body>
