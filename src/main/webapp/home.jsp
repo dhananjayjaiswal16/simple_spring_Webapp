@@ -26,22 +26,6 @@
   </form>
   <hr>
   <br>
-  <h1>UPDATE</h1><br>
-  <form action="updateAlien">
-    <input type="text" name="aid"> <br>
-    <input type="text" name="aname"> <br>
-    <input type="text" name="tech"> <br>
-    <input type="submit">
-  </form>
-
-  <hr>
-  <br>
-  <h1>DELETE</h1>
-  <br>
-  <form action="deleteAlien">
-    <input type="text" name="aid"> <br>
-    <input type="submit">
-  </form>
 </body>
 
 </html>
